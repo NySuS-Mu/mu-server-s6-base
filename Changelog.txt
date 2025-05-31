@@ -1,0 +1,247 @@
+//===================================================================
+//- UPDATE 1.0
+//===================================================================
+- Fix Ancient Rave Set Effect when move to other map
+- CustomMix IndexMin to IndexMax
+- CustomStartItem full of options
+- Slide Help fix notice
+- Periodic Items cant sell to shop [GameServerInfo - Common.dat]
+- Rework MonsterSetBase
+- Rework Invasion Manager
+- Added Active Invasion
+- Added Map Usage Time
+- Added Antiflood [AtihackServer, ConnectServer, GameServer]
+- BMD Item.txt Converter to Item.bmd [GameServer->Tools]
+- Added ItemPost v2
+- CustomPet
+- Registration in game
+- Autologin
+- Right Click Items
+- Fixed all Dupe Item
+- Fixed all Dupe Coins
+- Fixed Notice Kanturu
+- Fix Summon Party glitches on CS gate
+- PvP Zone v2
+- CustomRingSummon
+- CustomMonsterSkill
+- Buff Icon
+
+//===================================================================
+//- Update 0.2 
+//===================================================================
+- Fixed all Skills animation
+- Fixed Name Red Dragon
+- Move Invasion Active
+- Fixed crash Invasion Active with RankUser [View Model]
+- Event Entry Count [GameServerInfo - Event.dat]
+- Enter without Entrance to BC/DS/IT [GameServerInfo - Event.dat]
+- Event Entry Level
+- Item Stack New [GS/Main]
+- CustomServerInfo
+- Custom Map
+
+//===================================================================
+//- Update 0.3 
+//===================================================================
+- CRC Check [GameServerInfo - Hack.dat]
+- Max HWID [GameServerInfo - Common.dat]
+- Close/Relog count 5 seconds
+- 5 Plugins [MainInfo.ini]
+- Launcher Force Start [MainInfo.ini] LauncherType = 2
+- Fix Close Personal Store
+- Command Post Global Show Server Name [GameServerInfo - Command.dat]
+- DuelMaxTime in Duel [GameServerInfo - Common.dat]
+- VaultItemBlockLucky [GameServerInfo - Common.dat]
+- ConnectMemberCheck [GameServerInfo - Common.dat] Data/ConnectMember.txt
+
+//===================================================================
+//- Update 0.4 
+//===================================================================
+- Sync Chaos Machine GS->Main
+- Damage Table [Data/Util/DamageTable.txt]
+- MasterExperienceRate [Data/Util/ExperienceTable.txt]
+- Monster Move [Data/Monster/MonsterMove.txt]
+- Monster Shedule [Data/Monster/MonsterShedule.txt]
+- Npc Talk [Data/Monster/NpcTalk.txt]
+- Skill Enabler [Data/Skill/SkillEnabler.txt]
+- Skill Use Area [Data/Skill/SkillUseArea.txt]
+- TeleportAttackCheck [GameServerInfo - Common.dat]
+- MonsterDefenseRate [GameServerInfo - Common.dat]
+- MonsterDefenseSuccessRateRate [GameServerInfo - Common.dat]
+- MonsterPhysiDamageRate [GameServerInfo - Common.dat]
+- MonsterAttackSuccessRateRate [GameServerInfo - Common.dat]
+- MonsterGetTopHitDamageUserMaxTime [GameServerInfo - Common.dat]
+- ElfBufferEnableQuest [GameServerInfo - Common.dat]
+- PetExperienceRateDivisor [GameServerInfo - Common.dat]
+- LuckyMinDurabilityRepair [GameServerInfo - Common.dat]
+- Level Up Point for all class AccountLevel [GameServerInfo - Common.dat]
+- PlusStatMinLevel [GameServerInfo - Common.dat]
+- ExperienceMultiplierConstA [GameServerInfo - Common.dat]
+- ExperienceMultiplierConstB [GameServerInfo - Common.dat]
+- MaxLevel [GameServerInfo - Common.dat]
+- CharacterDeleteSwitch [GameServerInfo - Common.dat]
+- PartyMoneyDistribute [GameServerInfo - Common.dat]
+- PartyMaxGapLevel [GameServerInfo - Common.dat]
+- Update User Manager [GameServer->Tools]
+- Fixed Ban Account
+- Zen drop Advanced [Data/ZenDrop.txt]
+
+//===================================================================
+//- Update 0.5 
+//===================================================================
+- Restriction to use special characters in Rename Command
+- MultiWarehouse Interface Arrows
+- Fixed ItemPost Max Lenght Character Name
+- Fixed all problems with skills
+- FIxed pickup helper all problems
+- Fixed White Boots on Evolution
+
+//===================================================================
+//- Update 0.6 
+//===================================================================
+- Item ToolTip Drop [MainInfo.ini]
+- Fix Viewport Move
+- Guild Assistant Guild Master can Accept Request
+- Guild Assistant can get Crown
+- Fix PrintScreen in 1366x768 resolution
+- Fix Switch character when dying
+- Fix move when is stuned
+- Fix Master SkillTree Dark Horse Defense
+- MapManager More options
+- Server Time [MainInfo.ini]
+- Fixed Server Timer Bar [Client/Settings.ini]
+- FPS 60 [MainInfo.ini]
+- Added Support display Master Reset in Character Panel
+- Fixed show MultiWarehouse when new account on first open Warehouse
+- Menu all Window Custom CursorFocus 
+- Active Invasion Button Checks
+- Fixed Animation Speed Wings etc. on 60 FPS
+- Party 10 members
+- Buff Party Icons
+- Copy MasterSkillTree original S6
+- Copy Item.txt/Item.bmd/ItemTooltip original S6
+
+//===================================================================
+//- Update 0.7 
+//===================================================================
+- Show Nickname, FPS and PING, ServerTime in Window Mode [MainInfo.ini]
+- Fixed moonwalk animation FPS 60 
+- Marriage System (Use SQL Script MuServer/Database/MarriageSystem.sql) [Data/Custom/CustomMarriage.txt] [GameServerInfo - Custom.dat]
+- Custom Buff Monster [Data/Custom/CustomBuffMonster.txt]
+- Luke Helper Event
+- Fix Npc Merchant Zyro Quest
+
+//===================================================================
+//- Update 0.8 
+//===================================================================
+- Window Mode Info 4 Type [MainInfo.ini]
+- MapManager.txt updated to MonsterHPBar on/off
+- HealthBar updated 
+- Animation FPS 60 little tweak to be same like FPS 25 
+- Rework EventItemBags v2 Options Coins Min-Max Drop (use HeartofLove for example)
+- CustomJewel Upgrade
+- CustomBonusPoint
+- Fixed MonsterSetBase Event
+- Fixed Buff from Cursed Santa
+- Fixed Active Invaison Packet Send to Server
+
+//===================================================================
+//- Update 0.9
+//=================================================================== 
+- Custom Option Menu
+- Added more Antilag options [Settings.ini]
+- Fixed dupe by Helper Window
+- Fixed Party Delay Join Party 10max, all Party 10 max is fixed now
+
+//===================================================================
+//- Update 1.0
+//=================================================================== 
+- Monster Kill Count [CustomMonsterKillCount.txt]
+- Changed all interface application colors
+- Fixed Gladiator Buff respawn 
+- Fix Show Tooltip Dark Horse + Dark Raven in Shop
+- Fix MuHelper. Item Repair if DarkRaven HP=0
+- Fix Mouse Hover Interface S6
+- Fix Original Combo Push Effect 
+- Item Bank 
+- Marriage System
+- All Custom Windows Movable
+- Removed ReiDoMU
+- Removed Quickly Event
+- Removed Event Start
+- Removed Event Hide and Seek
+- Removed Event Run And Catch
+- Removed Event Russian Roulette
+- Removed Event PvP
+- Removed Event Kill All
+- Removed Ranking 
+- Removed Max Level
+- Removed Guild Warehouse
+
+//===================================================================
+//- Update 1.1
+//=================================================================== 
+- Reset Reward Coin
+- Master Reset Reward Coin
+- New Custom Mix
+- Skin System
+
+//===================================================================
+//- Update 1.2
+//===================================================================
+- Flag System
+- New Map TAB with automove
+- Party Search
+
+//===================================================================
+//- Update 1.3
+//===================================================================
+- Endless Tower Event
+
+//===================================================================
+//- Update 1.4
+//===================================================================
+- ItemStack Reformuled
+- ChaosBox Fixed
+- Item Move Fixed
+
+//===================================================================
+//- Update 1.5
+//===================================================================
+- Updated Project to vs2022 v143module
+- Bonus Manager v2
+- Chaos Box, moved all wings to EventItemBags Mix
+- CustomMix max mix 1024
+- SkillDamage v2
+- Custom Daily Reward
+- Fix bonus CustomFlag
+- Fix bonus CustomSkin
+- Summon Scroll 
+- Add Rune Effect
+- New Ranking
+- PK/PVM Notice Client
+- Max Level 1000
+- Register in game = off due to Vietnam Hack fix 
+- CustomDeathReward
+- CustomDropCoin
+- FIX Party Crash
+- CustomGuard
+- CustomJewelDisable
+- Elemental Slots
+
+//-------------------------------------------------------------------
+//- Next to do list
+---------------------------------------------------------------------
+- Great PK Event
+= Patch S18
+- Reorganized source code
+- Quick Add Stats
+- Minning System
+
+
+- CustomMonsterDrop
+- CustomGuard 
+
+- Widescreen on/off 1= on classic 2 = ex700 3 = legends 
+- Ex700 Scenes
+- All Configs for items change from Index Calculator to Type(Group) ItemIndex
